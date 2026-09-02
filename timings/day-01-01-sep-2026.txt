@@ -1,3 +1,4 @@
 30 min - github
 2 hours - youtube video
 1 hour - practice
+1 hour - aws
