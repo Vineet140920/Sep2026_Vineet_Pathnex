@@ -1,0 +1,30 @@
+Day 01 Basics
+
+Ansible Task = Install Nginx on Path nex server
+
+
+Rewrite the YAMl manually
+
+
+- name: Install Nginx server on Pathnex
+  hosts: all
+  become: yes
+
+
+  tasks:
+    - name: install nginx
+      yum:
+       name: nginx
+       state: present
+
+
+
+     Docker
+
+docker --version
+docker run ubuntu echo echo "Hello Pathnex"
+
+#Docker file
+
+FROM ubuntu:22.04
+CMD["echo","Hello Pathnex"]
